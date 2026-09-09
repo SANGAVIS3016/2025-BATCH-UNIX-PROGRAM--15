@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# UNIX Program: Add Group and Delete Group
-# Complete the script below.
+# Create the required group
+groupadd developers
 
-# TODO: Create the required group
-
-
-# TODO: Delete the required group
+# Delete the required group
+groupdel developers
